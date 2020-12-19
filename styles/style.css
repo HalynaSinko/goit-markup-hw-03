@@ -51,7 +51,7 @@ ul {
 /* Контейнер для позиционирования */
 .conteiner {
   display: flex;
-  width: 1170px;
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding: 0px 15px;
@@ -146,9 +146,6 @@ ul {
 
 /* hero */
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-
   background-color: var(--dark-background-color);
   text-align: center;
 }
@@ -184,9 +181,25 @@ ul {
 }
 
 /* features */
+.features-conteiner {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.features-list {
+  display: flex;
+}
+
+.features-list > .item {
+  width: calc((100%-30px) / 4);
+}
+
+.features-list > .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .feature-title {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 
   font-weight: var(--bolt-font-weight);
   font-size: 14px;
