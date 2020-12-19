@@ -31,11 +31,17 @@ body {
 /* Сброс маркера в списках  */
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Сброс подчеркивания всех ссылок */
 .link {
   text-decoration: none;
+}
+
+.header {
+  background-color: tomato;
 }
 
 /* header */
@@ -89,6 +95,9 @@ ul {
 }
 
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-weight: var(--hero-title-font-weight);
   font-size: 44px;
   line-height: 1.36;
@@ -111,12 +120,18 @@ ul {
 
 /* features */
 .feature-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-weight: var(--bolt-font-weight);
   font-size: 14px;
   text-transform: uppercase;
 }
 
 .text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--secondary-color);
 }
 
@@ -129,6 +144,9 @@ ul {
 /* team  */
 .works-title,
 .team-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-weight: var(--bolt-font-weight);
   font-size: 36px;
   line-height: 1.17;
@@ -147,6 +165,9 @@ ul {
 }
 
 .employee {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-weight: var(--average-font-weight);
 }
 
@@ -192,6 +213,9 @@ footer {
 
 /* list portfolio */
 .portfolio-caption {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-weight: var(--bolt-font-weight);
   font-size: 18px;
   line-height: 2;
