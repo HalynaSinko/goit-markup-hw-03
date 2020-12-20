@@ -227,12 +227,11 @@ ul {
 .works-list > .works-item:not(:last-child) {
   margin-right: 30px;
 }
-
-.works-conteiner {
+.works .conteiner {
   flex-direction: column;
   padding-bottom: 94px;
 }
-/* team  */
+
 .works-title,
 .team-title {
   margin-top: 0px;
@@ -243,9 +242,30 @@ ul {
   line-height: 1.17;
   text-align: center;
 }
+/* team  */
 
 .team {
   background-color: var(--secondary-background-color);
+}
+.team .conteiner {
+  flex-direction: column;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list > .team-item:not(:last-child) {
+  width: calc((100%-30px) / 4);
+  margin-right: 30px;
+}
+
+.team-item {
+  background-color: var(--main-background-color);
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item > .employee,
@@ -255,10 +275,13 @@ ul {
   text-align: center;
 }
 
+.foto {
+  display: block;
+  margin-bottom: 30px;
+}
 .employee {
   margin-top: 0px;
-  margin-bottom: 0px;
-
+  margin-bottom: 10px;
   font-weight: var(--average-font-weight);
 }
 
