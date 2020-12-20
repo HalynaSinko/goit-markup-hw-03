@@ -263,18 +263,32 @@ ul {
 }
 
 /* footer */
-footer {
+.footer {
   background-color: var(--dark-background-color);
+}
+.footer .conteiner {
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
+  margin-bottom: 20px;
+  /* width: 145px; */
+
   color: #ffffff;
 }
-
+.address-list > .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address-list {
+  display: inline-block;
+}
 .address-contact {
   color: var(--dark-secondary-color);
 }
 .address {
+  display: block;
   font-style: normal;
   line-height: 1.71;
   color: var(--dark-main-color);
