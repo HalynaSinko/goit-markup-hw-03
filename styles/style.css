@@ -227,7 +227,7 @@ ul {
 .works-list > .works-item:not(:last-child) {
   margin-right: 30px;
 }
-.works .conteiner {
+.works > .conteiner {
   flex-direction: column;
   padding-bottom: 94px;
 }
@@ -257,8 +257,11 @@ ul {
   display: flex;
 }
 
-.team-list > .team-item:not(:last-child) {
+.team-list > .team-item {
   width: calc((100%-30px) / 4);
+}
+
+.team-list > .team-item:not(:last-child) {
   margin-right: 30px;
 }
 
