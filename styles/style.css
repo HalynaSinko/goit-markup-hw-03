@@ -156,6 +156,9 @@ ul {
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
 
   font-weight: var(--hero-title-font-weight);
   font-size: 44px;
@@ -365,11 +368,13 @@ ul {
   color: var(--main-color);
   background-color: var(--secondary-background-color);
 }
+
 .btn-filter:hover,
 .btn-filter:focus {
   color: var(--dark-main-color);
   background-color: var(--accent-color);
 }
+
 .filtrs-list {
   display: flex;
   justify-content: center;
@@ -381,10 +386,12 @@ ul {
 }
 
 /* list portfolio */
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
 }
+
 .portfolio-item {
 }
 
