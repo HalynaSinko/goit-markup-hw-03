@@ -219,8 +219,6 @@ ul {
 .text {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 4px;
-  padding-bottom: 4px;
 
   color: var(--secondary-color);
 }
@@ -288,23 +286,26 @@ ul {
 
 .team-item {
   background-color: var(--main-background-color);
-  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-item > .employee,
-.team-item > .profession {
+.item-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.team-item .employee,
+.team-item .profession {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-right: 5px;
-  padding-left: 5px;
 }
 
 .foto {
   display: block;
   max-width: 100%;
-  margin-bottom: 30px;
 }
 
 .employee {
