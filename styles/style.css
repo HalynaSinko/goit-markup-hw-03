@@ -158,20 +158,20 @@ ul {
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
-  width: 696px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 48px;
-  padding-left: 48px;
-
   font-weight: var(--hero-title-font-weight);
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: var(--dark-main-color);
 }
 
+.conteiner-title {
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .hero-btn {
   display: inline-block;
   border-radius: 4px;
