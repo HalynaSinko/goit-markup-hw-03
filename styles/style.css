@@ -159,6 +159,8 @@ ul {
   width: 696px;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 48px;
+  padding-left: 48px;
 
   font-weight: var(--hero-title-font-weight);
   font-size: 44px;
@@ -390,9 +392,6 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.portfolio-item {
 }
 
 /* евріка */
